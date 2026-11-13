@@ -27,4 +27,19 @@
 #\root\server-contents\bukkit.yml
 #\root\server-contents\plugins\Skript\scripts\test.sk
 
+# Configuration:
+
+# To confirm ignoring things like repository-settings, the whole server-contents folder itself.
 \root\
+
+# Any blank.placeholder or placeholder is NOT to be downloaded. If that placeholder isn't a blank.placeholder and isn't nessessary, you should put .placeholder_ignored or .placeholder.ignored
+*blank.placeholder
+*.placeholder_ignored
+*.placeholder.ignored
+
+# Default extensions that make the file go ignored when PULLing.
+*.ignored
+*.ignd
+*.ign
+*.hidden
+*.hddnf
