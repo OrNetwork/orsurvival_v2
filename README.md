@@ -3,7 +3,7 @@ OrSurvival V2 is a backend purpur server under the OrNetwork velocity proxy. Thi
 
 
 ## Documentation
-You can find the documentation in repository-settings\docs. You may not find all of the documentation due to how new and how much is contribution given every so often.
+You can find the documentation in the repository's wiki. You may not find all of the documentation you need due to how new and how much is contribution given every so often.
 
 
 
