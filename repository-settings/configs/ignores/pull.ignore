@@ -1,0 +1,30 @@
+# Pull Ignoring (Custom) Configuration File
+# ----------------------------
+# Version 1.5
+# "Ignores files mentioned in this configuration."
+# "[!] This file is CUSTOM. Meaning, this file does not automatically work with 'git pull', you should refer to or use 'orsurvival_v2/repository-settings/misc/pull.ps1' for pulling."
+
+# Lines beginning with # are comments.
+# Empty lines are ignored.
+
+# Paths normally start inside server-contents.
+# Examples:
+#server.properties
+#plugins/Geyser-Spigot/config.yml
+
+# Ignore entire folders
+# Examples:
+#plugins/Skript/scripts/private/
+#plugins/WorldGuard/worlds/
+
+# Ignore database files anywhere in server-contents
+# Examples:
+#*.db
+#*.sqlite
+
+# \root\ references the GitHub repository root
+# Examples:
+#\root\server-contents\bukkit.yml
+#\root\server-contents\plugins\Skript\scripts\test.sk
+
+\root\
