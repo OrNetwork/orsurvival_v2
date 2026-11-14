@@ -3,6 +3,8 @@
 # Version 1.5
 # "Ignores files mentioned in this configuration."
 # "[!] This file is CUSTOM. Meaning, this file does not automatically work with 'git pull', you should refer to or use 'orsurvival_v2/repository-settings/misc/pull.ps1' for pulling."
+#
+# To target the download location, check download-cfg.toml.
 
 # Lines beginning with # are comments.
 # Empty lines are ignored.
@@ -28,9 +30,6 @@
 #\root\server-contents\plugins\Skript\scripts\test.sk
 
 # Configuration:
-
-# To confirm ignoring things like repository-settings, the whole server-contents folder itself.
-\root\
 
 # Any blank.placeholder or placeholder is NOT to be downloaded. If that placeholder isn't a blank.placeholder and isn't nessessary, you should put .placeholder_ignored or .placeholder.ignored
 *blank.placeholder
