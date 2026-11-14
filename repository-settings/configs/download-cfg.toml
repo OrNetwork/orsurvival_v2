@@ -1,0 +1,15 @@
+title = " Downloading (CUSTOM) Configuration "
+#
+version = "1.0"
+desc = " (For pull.ps1) "
+#
+#
+
+[download]
+download_target = "\root\server-contents*"
+
+[bypasses]
+# Bypass things.
+
+# Should the download(s) be affected by pull.ignore?
+byp_pullignore = true
