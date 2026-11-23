@@ -4,12 +4,30 @@ version = "1.0"
 desc = " (For pull.ps1) "
 #
 #
+#
+[defaults]
+#
+
+#
+default_directory = "\root"
 
 [download]
-download_target = "\root\server-contents*"
+# Download settings for the custom script.
+
+# When the custom script is run, where should the script download the contents from?
+download_target = "\server-contents\*"
+
+# How should the files be placed.
+
+# UPDATE - Updates the files, does not delete missing files.
+# REPLACE - Updates the files but does delete missing files.
+placing_mode = UPDATE
+
+# Replaces files or folders. Works if the list is not empty.
+certainreplace_list = []
 
 [bypasses]
 # Bypass things.
 
-# Should the download(s) be affected by pull.ignore?
+# Should the download(s) NOT be affected by pull.ignore?
 byp_pullignore = true
